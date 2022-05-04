@@ -1,0 +1,24 @@
+[alias]
+  unstage = reset HEAD --
+  graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  cherrypick = cherry-pick
+[diff]
+    tool = default-difftool
+[color]
+  ui = true
+  branch = true
+  diff = true
+  interactive = true
+[format]
+  pretty = short
+[user]
+  name = Sankar Avula
+  email = savula15@gmail.com
+  username = savula15
+[core]
+  preloadindex = true
+  editor = vim
+[push]
+	default = nothing
+[merge]
+	conflictstyle = diff3
