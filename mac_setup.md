@@ -19,8 +19,6 @@ $ git clone https://github.com/savula15/dotfiles.git
 ### Install and setup iterm2
 Manual steps
 - Install latest iterm2 from https://iterm2.com/downloads.html
-- Point iterm2 to read/write config to ~/work/github.com/dotfiles/iterm2-config
-- This can be done under iTerm2 > Preferences > General > Preferences.
 
 ### Install Oh-My-Zsh and powerlevel10k theme
 ```
