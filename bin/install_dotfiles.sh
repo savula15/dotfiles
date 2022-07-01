@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/zsh
 
 GITDIR="$PWD/.git"
 if [ ! -d "$GITDIR" ];

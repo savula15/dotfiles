@@ -81,7 +81,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git
          git-lfs
          colorize
+         tmux
 )
+
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -117,8 +120,6 @@ autoload -Uz compinit && compinit
 complete -C '/usr/local/bin/aws_completer' aws
 
 export PATH=$PATH:$HOME/go/bin
-
-source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
